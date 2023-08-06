@@ -1,5 +1,6 @@
 ----------------------Register--------------------------------------------
-(POST) > http://localhost:5000/api/auth/register
+> (POST) > http://localhost:5000/api/auth/register
+           https://zomatoclone-login-api.onrender.com/api/auth/register
 (body) => { 
     "name": "rohit mishra",
     "email":"rohitmhr.99@gmail.com",
@@ -10,7 +11,7 @@
 (response) => Registration successful
 
 --------------------Get all user--------------------------
-(GET)->http://localhost:5000/api/auth/users
+>(GET)->http://localhost:5000/api/auth/users
 
 ----------------Login-----------------------------------
 (POST) => http://localhost:5000/api/auth/login
@@ -23,7 +24,7 @@
 } 
 
 -----------------UserInfo------------------------
-(GET) => http://localhost:5000/api/auth/userInfo
+>(GET) => http://localhost:5000/api/auth/userInfo
 
 (Headers) => key:x-access-token value:Token value from login
 
